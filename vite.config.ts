@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite"
 import { defineConfig } from "vite"
 import { viteSingleFile } from "vite-plugin-singlefile"
 
-const REPORT_DIR = "octobot_script/resources/report"
+const REPORT_DIR = "src/octobot_script/resources/report"
 
 export default defineConfig({
   root: REPORT_DIR,

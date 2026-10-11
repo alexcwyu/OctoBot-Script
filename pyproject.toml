@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "octobot-script"
+version = "0.1.1"
+description = "Backtesting framework of the OctoBot ecosystem"
+readme = "README.md"
+requires-python = ">=3.13"
+license = "GPL-3.0-only"
+dependencies = [
+    "octobot[full]",
+    "appdirs",
+    "click",
+    "jinja2",
+    "aiohttp",
+    "wheel",
+]
+
+[project.scripts]
+octobot_script = "octobot_script.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/octobot_script"]
+exclude = ["src/octobot_script/imports", "src/octobot_script/user"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+asyncio_mode = "auto"
+
+[dependency-groups]
+dev = ["pytest", "pytest-asyncio", "pytest-cov", "pytest-timeout", "pytest-xdist", "mock", "ruff"]
+
+[tool.uv.sources]
+"octobot" = { path = "../OctoBot", editable = true }

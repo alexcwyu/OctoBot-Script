@@ -13,9 +13,9 @@
     "isolatedModules": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["octobot_script/resources/report/src/*"]
+      "@/*": ["src/octobot_script/resources/report/src/*"]
     },
     "types": ["vite/client"]
   },
-  "include": ["octobot_script/resources/report/src"]
+  "include": ["src/octobot_script/resources/report/src"]
 }

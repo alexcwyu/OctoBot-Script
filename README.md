@@ -100,3 +100,5 @@ To build report from sources:
 npm install
 npm run build
 ```
+
+Development documentation: [architecture and workflows](docs/ayu-develop.md) ([HTML](docs/ayu-develop.html)), [uv development](docs/development.md), and [validation evidence](docs/validation.md).

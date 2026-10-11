@@ -139,7 +139,7 @@ def _get_tentacles_config_path(profile_id=None):
         return profile.get_tentacles_config_path()
     return os.path.join(
         get_module_appdir_path(),
-        octobot_tentacles_manager_constants.USER_REFERENCE_TENTACLE_CONFIG_PATH,
+        os.path.join(commons_constants.USER_FOLDER, commons_constants.REFERENCE_TENTACLES_CONFIG_DIR),
         commons_constants.CONFIG_TENTACLES_FILE
     )
 
