@@ -133,3 +133,5 @@ No existing test assertions are removed and no new test cases are introduced in 
 ## Further reading
 
 Use [development.md](development.md) for reproducible commands and [validation.md](validation.md) for exact interpreter, dependency, build, test, and blocker evidence. The equivalent [HTML architecture document](ayu-develop.html) supports browsing and rendered diagrams.
+
+Python 3.15 now builds with [the documented current native source and system-library settings](development.md#current-native-indicator-source). This repository’s own 14 original cases pass. The original assertions and API scope remain intact.
