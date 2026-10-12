@@ -1,4 +1,11 @@
-# OctoBot-Script maintenance validation
+# OctoBot-Script: final Python 3.15 verification
+
+Selected runtime: **managed Python 3.15.0**, uv **0.13.0**; source commit `3ab9beccb9c91ef2fec34b25bea127f9da25997b`. Its own existing repository suite passed: **14 passed in 16.33s**. This is the original standalone repository suite, separately executed from the newer host's package suites. Source distribution and wheel builds, frozen synchronization and strict source compilation passed. No test cases, golden values or formulas changed.
+
+[Development and native prerequisites](development.md) · [Portable exact commands](maintenance/index.md) · [Machine-readable evidence](maintenance/verification.json). The locked adjacent licensed source and supported system-library configuration are explicit in the project metadata and development guide.
+
+## Historical verification attempts
+
 
 Recorded 2026-10-12T01:32:45.053223+08:00. Branch `feature/ayu_develop`; upstream default `upstream/master` is merged: **true**. Branch/tag synchronization records are retained in the workspace maintenance evidence. Feature branch publication is coordinated separately.
 
