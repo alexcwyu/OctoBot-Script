@@ -1,5 +1,11 @@
 # OctoBot-Script: final Python 3.15 verification
 
+<!-- current-documentation-provenance -->
+Documentation reviewed: 2026-10-13 · Git source base: `3b24149f79abfa1c97b34b2395b41ef04898c480` · [Current architecture and feature guide](ayu-develop.md).
+Historical execution commands/results below retain their original dates and scope; this metadata update is not a new application test run.
+<!-- /current-documentation-provenance -->
+
+
 Selected runtime: **managed Python 3.15.0**, uv **0.13.0**; source commit `3ab9beccb9c91ef2fec34b25bea127f9da25997b`. Its own existing repository suite passed: **14 passed in 16.33s**. This is the original standalone repository suite, separately executed from the newer host's package suites. Source distribution and wheel builds, frozen synchronization and strict source compilation passed. No test cases, golden values or formulas changed.
 
 [Development and native prerequisites](development.md) · [Portable exact commands](maintenance/index.md) · [Machine-readable evidence](maintenance/verification.json). The locked adjacent licensed source and supported system-library configuration are explicit in the project metadata and development guide.

@@ -1,5 +1,11 @@
 # Development
 
+<!-- current-documentation-provenance -->
+Documentation reviewed: 2026-10-13 · Git source base: `3b24149f79abfa1c97b34b2395b41ef04898c480` · [Current architecture and feature guide](ayu-develop.md).
+Historical execution commands/results below retain their original dates and scope; this metadata update is not a new application test run.
+<!-- /current-documentation-provenance -->
+
+
 ## uv maintenance workflow (2026-10-12)
 
 Selected complete environment: Python 3.15.0; build backend `hatchling.build`. The workspace uses uv 0.13.0. The complete latest-source native build and original repository suite are verified; exact results are recorded in [validation](validation.md).
